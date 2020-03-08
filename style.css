@@ -224,8 +224,9 @@ background: linear-gradient(85deg, rgba(219,130,137,1) 0%, rgba(212,164,164,1) 1
   width: 100%;
   padding: .5rem;
   border-radius: 0;
-  border: 1px solid #d8d8d8;
-  background: #fbfbfb;
+  color:#000;
+  border: 1px solid #000;
+  background: #FFFFFF;
   font-size: 1.175em;
 }
 
