@@ -1,0 +1,410 @@
+/* Free Estimate Form Styles */
+/* ========================= */
+
+html, body, #page-container {
+    -ms-overflow-x: visible !important;
+    overflow-x: visible !important;
+    height: 100%;
+    background: #FFFFFF;
+}
+
+/* Global */
+/* ------ */
+
+#free-estimate #page-container > article.content {
+    padding: 0;
+    background: none;
+}
+
+#free-estimate > article.content {
+    padding: 0;
+}
+
+.marketing-disclosure {
+    margin: 1em 1.5em 2em;
+    font-size: 14px;
+}
+
+.field-acceptsMarketing .ui-checkbox {
+    width: inherit;
+}
+
+.estimate-content-wrap {
+  position: relative;
+}
+
+/* Header */
+.estimate-header {
+  position: relative;
+  margin-bottom: 1rem;
+  padding: 1em 0;
+  text-align: center;
+}
+.estimate-call-us-cta-mobile {
+  margin: -15px -30px 0;
+  padding: .5rem 0;
+  background: #db8289;
+  color: #FFFFFF;
+}
+
+.estimate-call-us-cta {
+  display: none;
+  color: #db8289;
+}
+
+.estimate-call-us-cta-mobile p,
+.estimate-call-us-cta p {
+  margin: 0;
+  padding: .5rem 1rem;
+  font-size: 1.5em;
+}
+
+.estimate-call-us-cta-mobile b,
+.estimate-call-us-cta b {
+  display: block;
+  font-size: 1.275em
+}
+
+.estimate-header .mp-logo {
+  display: block;
+  margin: .5rem;
+}
+
+.estimate-header .header-logo-tag .content-title {
+  margin: 0;
+  font-weight: bold;
+  font-size: 1.375em;
+  line-height: 1;
+}
+
+@media screen and (max-width: 880px) {
+  #free-estimate #page-container {
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 880px) {
+
+  html, body, #page-container {
+    background: #db8289;
+  }
+
+  #free-estimate #page-container > article.content {
+    padding: 4rem 0;
+  }
+
+  .estimate-content-wrap {
+    box-shadow: rgba(16, 75, 97, 0.2) 15px 15px 0 -5px;
+    background: #f3f3f3;
+  }
+
+  .estimate-form {
+    float: right;
+    width: 38rem;
+    padding: 1rem 1.5rem;
+  }
+
+  .estimate-header {
+    float: left;
+    height: 515px;
+    width: calc(100% - 38rem);
+    margin-bottom: 0;
+    padding: 1.5rem 1em;
+    background: #f3f3f3 url("../images/woman-clipboard.png") no-repeat center bottom;
+    background-size: 70%;
+  }
+
+  .estimate-header .header-logo-tag {
+    margin: 0;
+  }
+
+  .estimate-call-us-cta {
+    display: block;
+  }
+  .estimate-call-us-cta-mobile {
+    display: none;
+  }
+}
+
+
+/* ------ */
+
+/* FORM ELEMENTS */
+.estimate-form {
+  max-width: 38em;
+  margin: 0 auto;
+  background: white;
+}
+
+.estimate-form h5 {
+  margin: 0 0 1rem;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: 'proxSemiBold';
+  color: #006492;
+}
+
+.estimate-form hr {
+  margin: 1rem 0;
+  border: none;
+  border-bottom: 1px solid #d8d8d8;
+}
+.estimate-form .form-field {
+  overflow: visible;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.estimate-form fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+.estimate-form .form-errors {
+  margin-top: .25rem;
+  font-size: .775em;
+  line-height: 1.1;
+}
+.estimate-form .form-field label {
+  box-sizing: border-box;
+  float: none;
+  margin: 0 0 .5rem;
+  font-size: 1em;
+}
+
+.estimate-form .form-field label:after {
+  margin-left: .15em;
+  color: #006492;
+}
+
+.estimate-form .ui-input,
+.estimate-form .ui-input[type=text] {
+  box-sizing: border-box;
+  height: auto;
+  width: 100%;
+  padding: .5rem;
+  border-radius: 0;
+  border: 1px solid #d8d8d8;
+  background: #fbfbfb;
+  font-size: 1.175em;
+}
+
+.estimate-form textarea.ui-input {
+  height: 2em;
+  padding: .45em;
+}
+
+.estimate-form .ui-input:focus {
+  border-color: #db8289;
+  outline: none;
+  box-shadow: none;
+}
+.estimate-form .ui-select {
+  height: auto;
+  width: 100%;
+  padding: 0;
+  border-radius: 0px;
+  border: none;
+  background: none;
+}
+
+.estimate-form .ui-select select {
+  box-sizing: border-box;
+  height: 36px;
+  width: 100%;
+  padding: 0 .5rem;
+  border-radius: 0;
+  border: 1px solid #d8d8d8;
+  background: #fbfbfb url("arrow-down.svg") right center no-repeat;
+  background-size: 1.5em;
+  font-size: 1em;
+  line-height: 1.2;
+  -moz-appearance: none;
+  text-indent: 0.01px;
+  text-overflow: "";
+}
+.estimate-form .ui-select:focus,
+.estimate-form .ui-select select:focus {
+  border-color: #db8289;
+  outline: none;
+  box-shadow: none;
+}
+.estimate-form .field-bedrooms label,
+.estimate-form .field-fullBaths label {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: calc(100% - 2rem);
+  margin: 0;
+  padding-left: 33px;
+}
+
+.estimate-form .field-frequency label {
+  position: relative;
+  padding-left: 33px;
+}
+
+.estimate-form .field-bedrooms label:before,
+.estimate-form .field-fullBaths label:before,
+.estimate-form .field-frequency label:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: -12px;
+  height: 28px;
+  width: 30px;
+  background: url("icon-bed.svg") no-repeat 0 0;
+  background-size: 100%;
+}
+
+.estimate-form .field-frequency label:before {
+  top: -9px;
+  height: 28px;
+  width: 30px;
+  background: url("icon-calendar.svg") no-repeat 3px 0;
+  background-size: 96%;
+}
+
+.estimate-form .field-fullBaths label:before {
+  top: -9px;
+  height: 27px;
+  width: 28px;
+  background: url("icon-bathtub.svg") no-repeat 0 0;
+  background-size: 100%;
+}
+
+.estimate-form .field-bedrooms .ui-input[type=text],
+.estimate-form .field-fullBaths .ui-input[type=text] {
+  display: inline-block;
+  vertical-align: middle;
+  width: 2rem;
+}
+
+.estimate-form .field-frequency label,
+.estimate-form .field-frequency .ui-select,
+.estimate-form .field-frequency .ui-select
+{
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+  margin: 0;
+}
+
+.estimate-form .field-promoCode {
+  margin-bottom: 1rem;
+}
+
+.estimate-form .field-promoCode label,
+.estimate-form .field-promoCode .ui-input {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+  margin: 0;
+}
+.estimate-form .form-actions {
+  padding-bottom: 1em;
+  text-align: right;
+}
+
+.estimate-form .form-actions button {
+  width: 100%;
+  padding: 1.5rem 0;
+  font-size: 1.25em;
+  background: #db8289;
+  border: none;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.15) 6px 6px 0 -3px;
+  color: #FFFFFF;
+}
+
+.estimate-form .form-actions button:hover {
+  background: #E8AECE;
+}
+
+.sub-text {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.estimate-form .ui-bg-primary {
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.estimate-form .ui-bg-primary h2 {
+  margin: 0;
+}
+
+.estimate-form .ui-bg-primary p {
+  margin: 1rem 0 0 0;
+}
+
+/* HIDING UNUSED FIELDS  */
+.estimate-form .field-rooms,
+.estimate-form .field-squareFeet {
+  display: none;
+}
+
+
+@media screen and (max-width: 880px) {
+  .estimate-form .field-bedrooms,
+  .estimate-form .field-fullBaths {
+    padding-bottom: .5rem;
+    border-bottom: 1px solid #d8d8d8;
+  }
+  .estimate-form .field-frequency {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 880px) {
+
+  .estimate-form .two-up .form-field {
+    clear: none;
+    float: left;
+    width: 49%;
+  }
+  .estimate-form .two-up .form-field:first-child {
+    margin-right: 2%;
+  }
+
+  .estimate-form .three-up.city-state-zip .form-field {
+    clear: none;
+    float: left;
+    width: calc(100% / 2 - 4rem);
+  }
+  .estimate-form .three-up.city-state-zip .form-field:nth-child(2) {
+    padding: 0 .5rem
+  }
+
+  .estimate-form .three-up.city-state-zip .form-field:last-child {
+    width: 8rem;
+  }
+
+  .estimate-form .three-up.rooms-baths-frequency .form-field {
+    float: left;
+    clear: none;
+    width: 158px;
+    margin-bottom: 0;
+    padding-right: .75rem;
+  }
+
+  .estimate-form .three-up.rooms-baths-frequency .form-field:last-child {
+    width: calc(100% - 316px);
+    padding: 0
+  }
+
+  .estimate-form .field-hear label,
+  .estimate-form .field-hear textarea.ui-input
+  {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    margin: 0;
+  }
+  .estimate-form .field-promoCode {
+    margin-top: 1rem;
+    padding-right: 1rem;
+  }
+}
