@@ -9,9 +9,9 @@ html, body, #page-container {
 background: linear-gradient(85deg, rgba(219,130,137,1) 0%, rgba(212,164,164,1) 100%);}
 
 .buttonx {
-    border: 3px solid #fcad26;
+    border: 3px solid #ffc6cb;
     border-radius: 50px;
-    color: #fcad26;
+    color: #ffc6cb;
     background-color: #fff;
     padding: 15px 35px;
     margin: 20px 10px;
@@ -24,7 +24,7 @@ background: linear-gradient(85deg, rgba(219,130,137,1) 0%, rgba(212,164,164,1) 1
 }
 
 .buttonx:hover {
-    background-color: #fcad26;
+    background-color: #ffc6cb;
     color: #fff;
 }
 
@@ -181,7 +181,7 @@ background: linear-gradient(85deg, rgba(219,130,137,1) 0%, rgba(212,164,164,1) 1
   font-size: 1em;
   font-weight: bold;
   font-family: 'proxSemiBold';
-  color: #006492;
+  color: #ffc6cb;
 }
 
 .estimate-form hr {
@@ -214,7 +214,7 @@ background: linear-gradient(85deg, rgba(219,130,137,1) 0%, rgba(212,164,164,1) 1
 
 .estimate-form .form-field label:after {
   margin-left: .15em;
-  color: #006492;
+  color: #ffc6cb;
 }
 
 .estimate-form .ui-input,
